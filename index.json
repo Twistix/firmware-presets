@@ -160,6 +160,7 @@
       "AyyyKayyy - Anthony Knight",
       "Benjamin Freelove",
       "benlumley",
+      "bensonk",
       "Betaflight",
       "BMSThomas",
       "Botgrinder",
@@ -431,6 +432,7 @@
       "log",
       "logging",
       "Long Range",
+      "longrange",
       "loRanger",
       "lr5",
       "mamba",
@@ -442,18 +444,21 @@
       "MM",
       "mode",
       "modes",
+      "mountain surfing",
       "mouse fpv",
       "mr nice",
       "mrnice",
       "msp",
       "MSP VTX",
       "msp-osd",
+      "MtnSurf",
       "Multi",
       "MultiGP",
       "MultiVoltage",
       "names",
       "nano",
       "nanohawk",
+      "navigation",
       "Neil",
       "neuron",
       "nice",
@@ -494,6 +499,7 @@
       "rc link",
       "rc_link",
       "rc_smoothing",
+      "recopter",
       "Redpine",
       "reset",
       "reset statistics",
@@ -548,6 +554,7 @@
       "tank solo",
       "tank ultimate",
       "TBS",
+      "TBS Core",
       "tbs sa",
       "Team Black Sheep",
       "Texas",
@@ -572,6 +579,7 @@
       "ul10",
       "ul5",
       "ul7",
+      "ul8",
       "ultra",
       "ultra 1000",
       "ultralite",
@@ -1804,7 +1812,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/elrs_150hz.txt",
-      "hash": "d22b0d44a2b43371e90d9e55ee84f1974772c273dba2a9f3be07c7e6b03df907",
+      "hash": "184837f2b9fd127ad77396b039e8a1f5f4e0dd25ce2243ad1d71ed5ee4f83bec",
       "title": "ExpressLRS 150Hz",
       "firmware_version": [
         "4.3",
@@ -1828,7 +1836,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/elrs_250hz.txt",
-      "hash": "93bbf1677661ffa837c016c20c0f625481f171bb225f57232442a2fd50557fce",
+      "hash": "23338d1dde96c11045e0fb112d11e71226ab4d247414fbbd736c6bbb55cf2a60",
       "title": "ExpressLRS 250Hz",
       "firmware_version": [
         "4.3",
@@ -1852,7 +1860,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/elrs_500hz.txt",
-      "hash": "faecfd633baedd5f1a66dc0686d3dfd50b5b6a2fd9d85e00a14905e0de5198e5",
+      "hash": "1473b88ce95130f1d3d106859dde0729ea1dcca1cf4cf801e7721bff523bb98b",
       "title": "ExpressLRS 500Hz",
       "firmware_version": [
         "4.3",
@@ -1876,7 +1884,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/elrs_50hz.txt",
-      "hash": "7f73224ec6a15a37ef9b56eefe2ed24db8b5dfbd12aa8ab273d030f916f07d00",
+      "hash": "7df044f3e2ae87dd3d54c2efbce2fa751a888d0c8becd8e515e30a4a8b6e4d14",
       "title": "ExpressLRS 50Hz",
       "firmware_version": [
         "4.3",
@@ -6076,7 +6084,7 @@
     },
     {
       "fullPath": "presets/4.5/filters/aos_rc/aos_ul10_filters.txt",
-      "hash": "4a19d1c39ab119ae8543b698b14bd4dc7adf4828acbd85d26f2546feddf97f87",
+      "hash": "d08019479b0a15c66c45383a827104e54e934310054bd30ce049c2ede6167ebd",
       "title": "AOS UL10 Filters",
       "firmware_version": [
         "4.5"
@@ -6130,6 +6138,26 @@
         "chris",
         "rosser",
         "ul7"
+      ],
+      "author": "Chris Rosser",
+      "priority": 100
+    },
+    {
+      "fullPath": "presets/4.5/filters/aos_rc/aos_ul8_filters.txt",
+      "hash": "38cbc253ebea2676f213b1d4b22466b676414b2a2f0416e7caa455b7de1bdf01",
+      "title": "AOS UL8 Filters",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "FILTERS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "filter",
+        "filters",
+        "aos",
+        "chris",
+        "rosser",
+        "ul8"
       ],
       "author": "Chris Rosser",
       "priority": 100
@@ -6436,7 +6464,7 @@
     },
     {
       "fullPath": "presets/4.5/filters/Twistix_default_filters.txt",
-      "hash": "eeb95a322c5f7cf2fe3a333cf701e837f44d9752ea7774505e5d2b65f0cfc611",
+      "hash": "1289d44ee1664efc9eb57727dc9f2dfbf79b8d201a2512d990942853f3e53bdf",
       "title": "Twistix default 5 inch filters",
       "firmware_version": [
         "4.5"
@@ -6498,6 +6526,28 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.5/osd/bensonk.txt",
+      "hash": "02af0529b806847b1128711bde753009000a659508ef23613ee7399b29685e98",
+      "title": "bensonk standard OSD config",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "OSD",
+        "TBS",
+        "TBS Core",
+        "GPS",
+        "navigation",
+        "longrange",
+        "mountain surfing",
+        "MtnSurf"
+      ],
+      "author": "bensonk",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.5/osd/sugark_hdzero_osd.txt",
       "hash": "d3f43e0baad7d2b2331b71b76029b2576f0f73520ac72060f4ec281153a1e8fa",
       "title": "sugarK HDzero OSD",
@@ -6539,6 +6589,23 @@
         "100euro"
       ],
       "author": "antonig",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/other/bensonk-switches.txt",
+      "hash": "ca0d77d0054512da7ca4551de98098612c3a7b1d4307156b018b03807f03ebf3",
+      "title": "bensonk - Standard switch settings",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "switch",
+        "mode",
+        "modes"
+      ],
+      "author": "bensonk",
       "priority": 0
     },
     {
@@ -7152,6 +7219,27 @@
       "priority": 1000000000000
     },
     {
+      "fullPath": "presets/4.5/tune/aos_rc/aos_ul8_tune.txt",
+      "hash": "14bcaa0535c360393c56d5d628304e669982ee3f322b9648e2cd244f9c63ae28",
+      "title": "AOS UL8 tune by Chris Rosser",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "aos",
+        "chris",
+        "rosser",
+        "pid",
+        "tune",
+        "ul8"
+      ],
+      "author": "Chris Rosser",
+      "force_options_review": true,
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/4.5/tune/barracuda_race_tune.txt",
       "hash": "5ed4b6efc4a2642990b39d25a66c30acb3a91c6a0c0661436b29d63af13da2a6",
       "title": "Barracuda Racer Tune",
@@ -7171,6 +7259,29 @@
         "2024"
       ],
       "author": "Viki Baarathi",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/basher_jazzmutant_tune.txt",
+      "hash": "e6ac203f6f1550aca430e94ce1edf558ce158155b3474b097f0f47beee3b9e6e",
+      "title": "Basher 5\" 6S by JazzMutant",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "basher",
+        "freestyle",
+        "5 Inch",
+        "5 In",
+        "5\"",
+        "recopter",
+        "bando",
+        "JazzMutant"
+      ],
+      "author": "JazzMutant",
+      "force_options_review": true,
       "priority": 1000000000000
     },
     {
@@ -7781,7 +7892,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/Twistix_default_tune.txt",
-      "hash": "1875cea0209947985aee6a70311507e55415b7e14ecb3c92c8fe22b7a11adda3",
+      "hash": "c0a9d576a72611e2f0fd114753c895d42fffab23e25f383cad2b6e122b9ccb56",
       "title": "Twistix default 5 inch tune",
       "firmware_version": [
         "4.5"

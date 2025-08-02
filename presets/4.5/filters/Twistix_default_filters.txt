@@ -39,5 +39,10 @@ set dyn_notch_q = 450
 set dyn_notch_min_hz = 150
 set dyn_notch_max_hz = 650
 
-# ========== Dterm filtering ==========
+# ========== Dterm Low Pass ==========
+set simplified_dterm_filter = OFF
+set dterm_lpf1_dyn_min_hz = 80
+set dterm_lpf1_dyn_max_hz = 110
 set dterm_lpf1_dyn_expo = 7
+set dterm_lpf1_type = BIQUAD
+set dterm_lpf2_static_hz = 0
