@@ -1,0 +1,28 @@
+#$ TITLE: Twistix default 5 inch tune
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITTY
+#$ KEYWORDS: Twistix, tune, 5 inch, 5"
+#$ AUTHOR: Twistix
+
+#$ PARSER: MARKED
+
+#$ DESCRIPTION: # Twistix 5 Inch Tune Preset
+#$ DESCRIPTION: <br>
+
+#$ INCLUDE: presets/4.5/tune/defaults.txt
+
+
+# ========== PIDs ==========
+# -- Master gain --
+set simplified_master_multiplier = 120
+
+# -- P gain --
+
+# -- I gain --
+
+# -- D gain --
+set simplified_dmax_gain = 0
+
+# ========== Dynamic IDLE ==========
+set dyn_idle_min_rpm = 20
