@@ -1,7 +1,7 @@
 #$ TITLE: Twistix default 5 inch tune
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
-#$ STATUS: COMMUNITTY
+#$ STATUS: COMMUNITY
 #$ KEYWORDS: Twistix, tune, 5 inch, 5"
 #$ AUTHOR: Twistix
 
